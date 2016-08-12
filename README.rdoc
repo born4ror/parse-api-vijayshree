@@ -1,0 +1,16 @@
+== README
+This is the tiny RESTful API 
+
+For endpoints:
+
+One endpoint receives the URL of the page, grab its content and store its content with the tags h1, h2 and h3 and the links
+
+The other endpoint lists the urls and content stored in the database.
+
+One has to do is pick up the contents of the posted url, parsed the  source code (html) and stored the contents of h1, h2 and h3 and the links.
+
+The parsing of Html content is done using the Nokogiri gem . 
+In Api url is send in params, url link is parsed and contents of h1,h2,h3 and anchor tag is shown.
+
+
+database used:-- PostgresSql
